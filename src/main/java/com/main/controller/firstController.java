@@ -19,5 +19,11 @@ public class firstController {
 		
 	return "success-new-path";		
 	}
+	
+	@GetMapping(value="/hello")
+	public String helloMessage(){
+		
+	return "success-hello-ravi";		
+	}
 
 }
