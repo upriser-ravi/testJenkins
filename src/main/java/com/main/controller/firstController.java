@@ -13,5 +13,11 @@ public class firstController {
 		
 	return "success-path";		
 	}
+	
+	@GetMapping(value="/new")
+	public String neMyMessage(){
+		
+	return "success-new-path";		
+	}
 
 }
